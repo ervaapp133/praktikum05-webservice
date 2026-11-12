@@ -1,0 +1,14 @@
+{
+  "name": "praktikum05-webservice",
+  "version": "1.0.0",
+  "description": "Praktikum 05 Web Service Engineering",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "docs": "node scripts/generate-openapi.cjs"
+  },
+  "dependencies": {
+    "express": "5.3.0",
+    "swagger-ui-express": "5.0.1"
+  }
+}
